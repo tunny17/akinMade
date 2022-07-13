@@ -1,11 +1,7 @@
-/* @font-face {
+@font-face {
     font-family: 'Raiderfont';
     src: local('Raiderfont'), url('./fonts/Raiderfont.ttf') format('truetype') ;
-} */
-
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Open+Sans&family=Poppins&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Open+Sans&family=Poppins:wght@400;700&display=swap');
-
+}
 
 * {
     margin: 0;
@@ -14,11 +10,7 @@
 }
 
 body {
-    /* font-family: 'Montserrat'; */
-        font-family: 'Big Shoulders Display', cursive;
-    font-family: 'Lexend Deca', sans-serif;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat';
     font-size: 12px;
     width: 100%;
     height: 100vh;
@@ -103,10 +95,6 @@ ul {
     border-radius: 50%;
 }
 
-.nav .profile .img:hover {
-    transform: scale(1.5);
-}
-
 .img-wrapper {
     position: absolute;
     bottom: 0;
@@ -118,6 +106,11 @@ ul {
     background-size: cover;
     height: 550px;
     width: 0;
+}
+
+.nav .profile .img:hover {
+    transform: scale(1.5);
+    cursor: pointer;
 }
 
 .info {
