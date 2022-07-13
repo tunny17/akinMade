@@ -145,14 +145,14 @@ ul {
 .text h1 {
     font-size: 90px;
     color: #fff;
-    font-family: 'Raiderfont';
+/*     font-family: 'Raiderfont'; */
     text-transform: uppercase;
 }
 
 .text p {
     font-size: 20px;
     color: #fff;
-    font-family: 'Raiderfont';
+/*     font-family: 'Raiderfont'; */
 }
 
 .name {
