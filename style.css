@@ -22,8 +22,31 @@ ul {
 }
 
 .collection-link {
+    font-size: 10px;
     color: #fff;
     text-decoration: none;
+    display: inline-block;
+    position: relative;
+    margin-left: 375px;
+} 
+
+.collection-link:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    top: 13px;
+    background-color: #fff;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.collection-link:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }
 /* 
 .collection:hover {
@@ -92,7 +115,7 @@ ul {
 }
 
 .nav .profile {
-    flex: 1;
+    flex: 0;
 }
 
 .nav .profile .img {
